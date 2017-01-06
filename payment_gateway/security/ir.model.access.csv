@@ -1,0 +1,4 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_payment_order,access_payment_order,model_payment_order,,1,1,1,1
+access_payment_user_info,access_payment_user_info,model_payment_user_info,,1,1,1,1
+access_payment_public_settings,access_payment_public_settings,model_payment_public_settings,,1,1,1,1

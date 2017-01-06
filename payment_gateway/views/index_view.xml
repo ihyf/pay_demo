@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+        <menuitem id="menu_payment_gateway" name="Payment Gatway"/>
+
+        <menuitem id="menu_payment_order"
+            parent="hollywant_payment_gateway.menu_payment_gateway"
+            action="action_payment_order"
+            sequence="10"/>
+
+        <menuitem id="menu_payment_user_account"
+            parent="hollywant_payment_gateway.menu_payment_gateway"
+            action="action_payment_user_info"
+            sequence="20"/>
+
+        <menuitem id="menu_payment_public_settings"
+                  parent="hollywant_payment_gateway.menu_payment_gateway"
+                  action="action_payment_public_settings"
+                  sequence="20"/>
+    </data>
+</openerp>

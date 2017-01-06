@@ -1,0 +1,347 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+#	* hollywant_payment_gateway
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 10.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-01-02 06:25+0000\n"
+"PO-Revision-Date: 2017-01-02 06:25+0000\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: hollywant_payment_gateway
+#: code:addons/hollywant_payment_gateway/models/payment_order.py:74
+#, python-format
+msgid "Ali pay"
+msgstr "支付宝"
+
+#. module: hollywant_payment_gateway
+#: model:ir.model.fields,field_description:hollywant_payment_gateway.field_payment_user_info_is_alipay
+msgid "AliPay"
+msgstr "支付宝"
+
+#. module: hollywant_payment_gateway
+#: model:ir.ui.view,arch_db:hollywant_payment_gateway.view_payment_user_info_form
+msgid "Alipay"
+msgstr "支付宝"
+
+#. module: hollywant_payment_gateway
+#: model:ir.model.fields,field_description:hollywant_payment_gateway.field_payment_user_info_alipay_app_id
+msgid "Alipay App ID"
+msgstr "支付宝 App ID"
+
+#. module: hollywant_payment_gateway
+#: model:ir.model.fields,field_description:hollywant_payment_gateway.field_payment_user_info_alipay_private_rsa
+msgid "Alipay Private RSA"
+msgstr "支付宝RSA私钥"
+
+#. module: hollywant_payment_gateway
+#: model:ir.model.fields,field_description:hollywant_payment_gateway.field_payment_user_info_alipay_public_key
+msgid "Alipay Public Key"
+msgstr "支付宝RSA公钥"
+
+#. module: hollywant_payment_gateway
+#: model:ir.model.fields,field_description:hollywant_payment_gateway.field_payment_user_info_alipay_seller_id
+msgid "Alipay Seller ID"
+msgstr "支付宝平台卖家ID"
+
+#. module: hollywant_payment_gateway
+#: code:addons/hollywant_payment_gateway/models/payment_order.py:92
+#, python-format
+msgid "Cancel"
+msgstr "取消"
+
+#. module: hollywant_payment_gateway
+#: model:ir.model.fields,field_description:hollywant_payment_gateway.field_payment_order_create_time
+msgid "Create Time"
+msgstr "创建时间"
+
+#. module: hollywant_payment_gateway
+#: model:ir.model.fields,field_description:hollywant_payment_gateway.field_payment_order_create_uid
+#: model:ir.model.fields,field_description:hollywant_payment_gateway.field_payment_public_settings_create_uid
+#: model:ir.model.fields,field_description:hollywant_payment_gateway.field_payment_user_info_create_uid
+msgid "Created by"
+msgstr "创建人"
+
+#. module: hollywant_payment_gateway
+#: model:ir.model.fields,field_description:hollywant_payment_gateway.field_payment_order_create_date
+#: model:ir.model.fields,field_description:hollywant_payment_gateway.field_payment_public_settings_create_date
+#: model:ir.model.fields,field_description:hollywant_payment_gateway.field_payment_user_info_create_date
+msgid "Created on"
+msgstr "创建时间"
+
+#. module: hollywant_payment_gateway
+#: model:ir.model.fields,field_description:hollywant_payment_gateway.field_payment_order_description
+msgid "Description"
+msgstr "说明"
+
+#. module: hollywant_payment_gateway
+#: model:ir.model.fields,field_description:hollywant_payment_gateway.field_payment_order_display_name
+#: model:ir.model.fields,field_description:hollywant_payment_gateway.field_payment_public_settings_display_name
+#: model:ir.model.fields,field_description:hollywant_payment_gateway.field_payment_user_info_display_name
+msgid "Display Name"
+msgstr "显示名称"
+
+#. module: hollywant_payment_gateway
+#: code:addons/hollywant_payment_gateway/models/payment_order.py:91
+#, python-format
+msgid "Done"
+msgstr "完成"
+
+#. module: hollywant_payment_gateway
+#: code:addons/hollywant_payment_gateway/models/payment_order.py:90
+#, python-format
+msgid "Draft"
+msgstr "草稿"
+
+#. module: hollywant_payment_gateway
+#: model:ir.ui.view,arch_db:hollywant_payment_gateway.view_payment_order_filter
+msgid "Group By"
+msgstr "分组"
+
+#. module: hollywant_payment_gateway
+#: model:ir.model.fields,field_description:hollywant_payment_gateway.field_payment_order_hollywant_payment_id
+#: model:ir.model.fields,field_description:hollywant_payment_gateway.field_payment_user_info_hollywant_payment_id
+msgid "Hollywant Payment ID"
+msgstr "Hollywant支付网关ID"
+
+#. module: hollywant_payment_gateway
+#: model:ir.model.fields,field_description:hollywant_payment_gateway.field_payment_order_hollywant_secret_key
+#: model:ir.model.fields,field_description:hollywant_payment_gateway.field_payment_user_info_hollywant_secret_key
+msgid "Hollywant Secret Key"
+msgstr "Hollywant支付密钥"
+
+#. module: hollywant_payment_gateway
+#: model:ir.model.fields,field_description:hollywant_payment_gateway.field_payment_order_id
+#: model:ir.model.fields,field_description:hollywant_payment_gateway.field_payment_public_settings_id
+#: model:ir.model.fields,field_description:hollywant_payment_gateway.field_payment_user_info_id
+msgid "ID"
+msgstr "ID"
+
+#. module: hollywant_payment_gateway
+#: model:ir.model.fields,field_description:hollywant_payment_gateway.field_payment_order___last_update
+#: model:ir.model.fields,field_description:hollywant_payment_gateway.field_payment_public_settings___last_update
+#: model:ir.model.fields,field_description:hollywant_payment_gateway.field_payment_user_info___last_update
+msgid "Last Modified on"
+msgstr "最后修改日"
+
+#. module: hollywant_payment_gateway
+#: model:ir.model.fields,field_description:hollywant_payment_gateway.field_payment_order_write_uid
+#: model:ir.model.fields,field_description:hollywant_payment_gateway.field_payment_public_settings_write_uid
+#: model:ir.model.fields,field_description:hollywant_payment_gateway.field_payment_user_info_write_uid
+msgid "Last Updated by"
+msgstr "最后更新人"
+
+#. module: hollywant_payment_gateway
+#: model:ir.model.fields,field_description:hollywant_payment_gateway.field_payment_order_write_date
+#: model:ir.model.fields,field_description:hollywant_payment_gateway.field_payment_public_settings_write_date
+#: model:ir.model.fields,field_description:hollywant_payment_gateway.field_payment_user_info_write_date
+msgid "Last Updated on"
+msgstr "最后更新时间"
+
+#. module: hollywant_payment_gateway
+#: model:ir.model.fields,field_description:hollywant_payment_gateway.field_payment_public_settings_name
+#: model:ir.model.fields,field_description:hollywant_payment_gateway.field_payment_user_info_name
+msgid "Name"
+msgstr "名字"
+
+#. module: hollywant_payment_gateway
+#: code:addons/hollywant_payment_gateway/models/payment_order.py:82
+#, python-format
+msgid "Not Pay"
+msgstr "未支付"
+
+#. module: hollywant_payment_gateway
+#: model:ir.model.fields,field_description:hollywant_payment_gateway.field_payment_order_name
+msgid "Order ID"
+msgstr "订单号"
+
+#. module: hollywant_payment_gateway
+#: model:ir.model.fields,field_description:hollywant_payment_gateway.field_payment_order_order_status
+msgid "Order Status"
+msgstr "订单状态"
+
+#. module: hollywant_payment_gateway
+#: code:addons/hollywant_payment_gateway/models/payment_order.py:83
+#, python-format
+msgid "Paid"
+msgstr "已支付"
+
+#. module: hollywant_payment_gateway
+#: model:ir.ui.menu,name:hollywant_payment_gateway.menu_payment_gateway
+msgid "Payment Gatway"
+msgstr "支付网关"
+
+#. module: hollywant_payment_gateway
+#: model:ir.model.fields,field_description:hollywant_payment_gateway.field_payment_order_payment_id
+msgid "Payment ID"
+msgstr "支付网关订单ID"
+
+#. module: hollywant_payment_gateway
+#: code:addons/hollywant_payment_gateway/models/payment_user_info.py:85
+#, python-format
+msgid "Payment ID is exist!"
+msgstr "Payment ID 已经存在!"
+
+#. module: hollywant_payment_gateway
+#: model:ir.actions.act_window,name:hollywant_payment_gateway.action_payment_order
+#: model:ir.ui.menu,name:hollywant_payment_gateway.menu_payment_order
+#: model:ir.ui.view,arch_db:hollywant_payment_gateway.view_payment_order_form
+#: model:ir.ui.view,arch_db:hollywant_payment_gateway.view_payment_order_tree
+msgid "Payment Order"
+msgstr "支付订单"
+
+#. module: hollywant_payment_gateway
+#: model:ir.actions.act_window,name:hollywant_payment_gateway.action_payment_public_settings
+#: model:ir.ui.menu,name:hollywant_payment_gateway.menu_payment_public_settings
+#: model:ir.ui.view,arch_db:hollywant_payment_gateway.view_payment_public_settings_form222
+#: model:ir.ui.view,arch_db:hollywant_payment_gateway.view_payment_public_settings_tree
+msgid "Payment Public Settings"
+msgstr "公共设置"
+
+#. module: hollywant_payment_gateway
+#: model:ir.model.fields,field_description:hollywant_payment_gateway.field_payment_order_payment_status
+#: model:ir.ui.view,arch_db:hollywant_payment_gateway.view_payment_order_filter
+msgid "Payment Status"
+msgstr "付款状态"
+
+#. module: hollywant_payment_gateway
+#: model:ir.model.fields,field_description:hollywant_payment_gateway.field_payment_order_payment_type
+#: model:ir.ui.view,arch_db:hollywant_payment_gateway.view_payment_order_filter
+#: model:ir.ui.view,arch_db:hollywant_payment_gateway.view_payment_user_info_form
+msgid "Payment Type"
+msgstr "付款类型"
+
+#. module: hollywant_payment_gateway
+#: model:ir.actions.act_window,name:hollywant_payment_gateway.action_payment_user_info
+#: model:ir.ui.menu,name:hollywant_payment_gateway.menu_payment_user_account
+#: model:ir.ui.view,arch_db:hollywant_payment_gateway.view_payment_user_info_form
+#: model:ir.ui.view,arch_db:hollywant_payment_gateway.view_payment_user_info_tree
+msgid "Payment User Info"
+msgstr "用户配置信息"
+
+#. module: hollywant_payment_gateway
+#: model:ir.model.fields,field_description:hollywant_payment_gateway.field_payment_order_product_name
+msgid "Product Name"
+msgstr "产品名称"
+
+#. module: hollywant_payment_gateway
+#: code:addons/hollywant_payment_gateway/models/payment_order.py:93
+#, python-format
+msgid "Return"
+msgstr "退款"
+
+#. module: hollywant_payment_gateway
+#: model:ir.model.fields,field_description:hollywant_payment_gateway.field_payment_public_settings_notify_url
+msgid "Return url"
+msgstr "回调url"
+
+#. module: hollywant_payment_gateway
+#: model:ir.ui.view,arch_db:hollywant_payment_gateway.view_payment_order_filter
+msgid "Search Payment Order"
+msgstr "Search Payment Order"
+
+#. module: hollywant_payment_gateway
+#: model:ir.model.fields,field_description:hollywant_payment_gateway.field_payment_order_source
+msgid "Source"
+msgstr "来源"
+
+#. module: hollywant_payment_gateway
+#: model:ir.model.fields,field_description:hollywant_payment_gateway.field_payment_order_total_amount
+msgid "Total Amount"
+msgstr "总金额"
+
+#. module: hollywant_payment_gateway
+#: model:ir.model.fields,field_description:hollywant_payment_gateway.field_payment_order_update_time
+msgid "Update Time"
+msgstr "更新时间"
+
+#. module: hollywant_payment_gateway
+#: model:ir.model.fields,field_description:hollywant_payment_gateway.field_payment_user_info_user_id
+msgid "User"
+msgstr "用户"
+
+#. module: hollywant_payment_gateway
+#: code:addons/hollywant_payment_gateway/models/payment_order.py:84
+#, python-format
+msgid "Wait Pay"
+msgstr "待支付"
+
+#. module: hollywant_payment_gateway
+#: code:addons/hollywant_payment_gateway/models/payment_order.py:76
+#, python-format
+msgid "Wang Bi Pay"
+msgstr "旺币支付"
+
+#. module: hollywant_payment_gateway
+#: model:ir.ui.view,arch_db:hollywant_payment_gateway.view_payment_user_info_form
+msgid "Wangbi Pay"
+msgstr "旺币支付"
+
+#. module: hollywant_payment_gateway
+#: model:ir.model.fields,field_description:hollywant_payment_gateway.field_payment_order_wangbipay_code
+msgid "Wangbi code"
+msgstr "旺币code"
+
+#. module: hollywant_payment_gateway
+#: model:ir.model.fields,field_description:hollywant_payment_gateway.field_payment_user_info_is_wangbipay
+msgid "WangbiPay"
+msgstr "旺币支付"
+
+#. module: hollywant_payment_gateway
+#: model:ir.model.fields,field_description:hollywant_payment_gateway.field_payment_user_info_wangbipay_app_id
+msgid "Wangbipay App ID"
+msgstr "旺币支付AppID"
+
+#. module: hollywant_payment_gateway
+#: model:ir.model.fields,field_description:hollywant_payment_gateway.field_payment_user_info_wangbipay_seller_id
+msgid "Wangbipay Seller ID"
+msgstr "旺币支付卖家ID"
+
+#. module: hollywant_payment_gateway
+#: code:addons/hollywant_payment_gateway/models/payment_order.py:75
+#: model:ir.ui.view,arch_db:hollywant_payment_gateway.view_payment_user_info_form
+#, python-format
+msgid "Weixin Pay"
+msgstr "微信支付"
+
+#. module: hollywant_payment_gateway
+#: model:ir.model.fields,field_description:hollywant_payment_gateway.field_payment_user_info_is_weixinpay
+msgid "WeixinPay"
+msgstr "微信支付"
+
+#. module: hollywant_payment_gateway
+#: model:ir.model.fields,field_description:hollywant_payment_gateway.field_payment_user_info_weixinpay_app_id
+msgid "Weixinpay App ID"
+msgstr "微信支付AppID"
+
+#. module: hollywant_payment_gateway
+#: model:ir.model.fields,field_description:hollywant_payment_gateway.field_payment_user_info_weixinpay_private_key
+msgid "Weixinpay Private Key"
+msgstr "微信支付私钥"
+
+#. module: hollywant_payment_gateway
+#: model:ir.model.fields,field_description:hollywant_payment_gateway.field_payment_user_info_weixinpay_seller_id
+msgid "Weixinpay Seller ID"
+msgstr "微信支付卖家ID"
+
+#. module: hollywant_payment_gateway
+#: model:ir.model,name:hollywant_payment_gateway.model_payment_order
+msgid "payment.order"
+msgstr "payment.order"
+
+#. module: hollywant_payment_gateway
+#: model:ir.model,name:hollywant_payment_gateway.model_payment_public_settings
+msgid "payment.public.settings"
+msgstr "payment.public.settings"
+
+#. module: hollywant_payment_gateway
+#: model:ir.model,name:hollywant_payment_gateway.model_payment_user_info
+msgid "payment.user.info"
+msgstr "payment.user.info"

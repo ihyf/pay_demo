@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+        <record id="view_payment_public_settings_tree" model="ir.ui.view">
+            <field name="name">payment.user.settings.tree</field>
+            <field name="model">payment.public.settings</field>
+            <field name="arch" type="xml">
+                <tree string="Payment Public Settings">
+                    <field name="name"/>
+                    <field name="notify_url"/>
+                </tree>
+            </field>
+        </record>
+
+        <record id="view_payment_public_settings_form222" model="ir.ui.view">
+            <field name="name">payment.public.settings.form</field>
+            <field name="model">payment.public.settings</field>
+            <field name="arch" type="xml">
+                <form string="Payment Public Settings">
+                    <sheet>
+                        <group>
+                            <group>
+                                <field name="name"/>
+                                <field name="notify_url"/>
+                            </group>
+                        </group>
+                    </sheet>
+                </form>
+            </field>
+        </record>
+
+
+
+        <record id="action_payment_public_settings" model="ir.actions.act_window">
+            <field name="name">Payment Public Settings</field>
+            <field name="type">ir.actions.act_window</field>
+            <field name="res_model">payment.public.settings</field>
+            <field name="view_type">form</field>
+            <field name="view_mode">tree,form</field>
+        </record>
+    </data>
+</openerp>

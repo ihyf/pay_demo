@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+        <record id="view_payment_user_info_tree" model="ir.ui.view">
+            <field name="name">payment.user.account.tree</field>
+            <field name="model">payment.user.info</field>
+            <field name="arch" type="xml">
+                <tree string="Payment User Info">
+                    <field name="name"/>
+                    <field name="user_id" invisible="1"/>
+                    <field name="hollywant_payment_id"/>
+                </tree>
+            </field>
+        </record>
+
+        <record id="view_payment_user_info_form" model="ir.ui.view">
+            <field name="name">payment.user.account.form</field>
+            <field name="model">payment.user.info</field>
+            <field name="arch" type="xml">
+                <form string="Payment User Info">
+                    <sheet>
+                        <group>
+                            <group>
+                                <field name="name"/>
+                                <field name="user_id" invisible="1"/>
+                                <field name="hollywant_payment_id"/>
+                                <field name="hollywant_secret_key"/>
+
+                                <label string = "Payment Type"/>
+                                <div>
+                                    <label for="is_alipay" string="Alipay"/>
+                                    <field name="is_alipay"/>
+
+                                    <label for="is_weixinpay" string="Weixin Pay"/>                                      
+                                    <field name="is_weixinpay"/>
+
+                                    <label for="is_wangbipay" string="Wangbi Pay"/>
+                                    <field name="is_wangbipay"/>
+                                </div>
+                            </group>
+                        </group>
+
+                        <notebook>
+                            <page string="Alipay" attrs="{'invisible': [('is_alipay','=', False)]}">
+                                <group>
+                                    <field name="alipay_seller_id"/>
+                                    <field name="alipay_app_id"/>
+                                    <field name="alipay_private_rsa"/>
+                                    <field name="alipay_public_key"/>
+                                </group>
+                            </page>
+
+                            <page string="Weixin Pay" attrs="{'invisible': [('is_weixinpay','=', False)]}">
+                                <group>
+                                    <field name="weixinpay_seller_id"/>
+                                    <field name="weixinpay_app_id"/>
+                                    <field name="weixinpay_private_key"/>
+                                </group>
+                            </page>
+
+                             <page string="Wangbi Pay" attrs="{'invisible': [('is_wangbipay','=', False)]}">
+                                <group>
+                                    <field name="wangbipay_seller_id"/>
+                                    <field name="wangbipay_app_id"/>
+                                </group>
+                            </page>
+                        </notebook>
+                    </sheet>
+                </form>
+            </field>
+        </record>
+
+        <record id="action_payment_user_info" model="ir.actions.act_window">
+            <field name="name">Payment User Info</field>
+            <field name="type">ir.actions.act_window</field>
+            <field name="res_model">payment.user.info</field>
+            <field name="view_type">form</field>
+            <field name="view_mode">tree,form</field>
+        </record>
+    </data>
+</openerp>
