@@ -233,3 +233,4 @@ class HollyWantAliPay(PayBaseController):
                                       app_id=app_id,
                                       private_key=private_key)
             return res
+
